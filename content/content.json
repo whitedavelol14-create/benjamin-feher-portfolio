@@ -1,0 +1,134 @@
+{
+  "site": {
+    "brand": "BENJAMIN_FEHÉR",
+    "role": "Director & Director of Photography",
+    "hero_line1": "Benjamin",
+    "hero_line2": "Fehér",
+    "tagline": "A hand-built, analog-leaning eye across <strong>animation and live action</strong> — directing and photographing long form, short form, and narrative work.",
+    "reel": {
+      "label": "Play reel",
+      "duration": "02:14",
+      "href": "#"
+    },
+    "email": "hello@benjaminfeher.com",
+    "contact_line": "Let's make something.",
+    "location": "Budapest · Available worldwide",
+    "hud": {
+      "fps": "24.000",
+      "shutter": "172.8",
+      "iris": "T 2.8",
+      "ei": "800",
+      "nd": "0.6",
+      "cam": "4K RAW",
+      "fcl": "40.0MM",
+      "media": "0:21H",
+      "tc_start": "02:20:35:09"
+    }
+  },
+  "about": {
+    "label": "About",
+    "loc": "Budapest · Hungary",
+    "pull": "Building images that feel both true and composed — <em>whether they start in a viewfinder or a render farm.</em>",
+    "paragraphs": [
+      "Benjamin Fehér is a director and director of photography working across <strong>animation and live action</strong>. On <strong>Stairs</strong>, a five-minute allegorical animated short, he directed and led cinematography and look development — carrying a filmic, photographic sensibility into a fully constructed image.",
+      "His work moves between long-form patience and short-form precision: the same eye, different clocks."
+    ],
+    "collaborators": "Selected collaborators — replace with real client list"
+  },
+  "categories": [
+    {
+      "id": "long-form",
+      "title": "Long Form",
+      "count": "03",
+      "desc": "Feature & documentary",
+      "projects": [
+        {
+          "title": "Project title",
+          "year": "2026",
+          "meta": "Documentary · DoP",
+          "href": "#",
+          "placeholder": true
+        },
+        {
+          "title": "Project title",
+          "year": "2025",
+          "meta": "Feature · Director",
+          "href": "#",
+          "placeholder": true
+        },
+        {
+          "title": "Project title",
+          "year": "2024",
+          "meta": "Documentary · DoP",
+          "href": "#",
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "id": "short-form",
+      "title": "Short Form",
+      "count": "04",
+      "desc": "Commercial · Music · Branded",
+      "projects": [
+        {
+          "title": "Project title",
+          "year": "2026",
+          "meta": "Commercial · Director",
+          "href": "#",
+          "placeholder": true
+        },
+        {
+          "title": "Project title",
+          "year": "2025",
+          "meta": "Music Video · DoP",
+          "href": "#",
+          "placeholder": true
+        },
+        {
+          "title": "Project title",
+          "year": "2025",
+          "meta": "Commercial · DoP",
+          "href": "#",
+          "placeholder": true
+        },
+        {
+          "title": "Project title",
+          "year": "2024",
+          "meta": "Branded · Director",
+          "href": "#",
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "id": "narrative",
+      "title": "Narrative",
+      "count": "03",
+      "desc": "Fiction & animation",
+      "projects": [
+        {
+          "title": "Stairs",
+          "year": "2026",
+          "meta": "Animated Short · Dir & DoP",
+          "href": "#",
+          "placeholder": false
+        },
+        {
+          "title": "Project title",
+          "year": "2025",
+          "meta": "Short Film · DoP",
+          "href": "#",
+          "placeholder": true
+        },
+        {
+          "title": "Project title",
+          "year": "2023",
+          "meta": "Short Film · Director",
+          "href": "#",
+          "placeholder": true
+        }
+      ]
+    }
+  ]
+}
