@@ -47,21 +47,24 @@
           "year": "2026",
           "meta": "Documentary · DoP",
           "href": "#",
-          "placeholder": true
+          "placeholder": true,
+          "video": ""
         },
         {
           "title": "Project title",
           "year": "2025",
           "meta": "Feature · Director",
           "href": "#",
-          "placeholder": true
+          "placeholder": true,
+          "video": ""
         },
         {
           "title": "Project title",
           "year": "2024",
           "meta": "Documentary · DoP",
           "href": "#",
-          "placeholder": true
+          "placeholder": true,
+          "video": ""
         }
       ]
     },
@@ -76,28 +79,32 @@
           "year": "2026",
           "meta": "Commercial · Director",
           "href": "#",
-          "placeholder": true
+          "placeholder": true,
+          "video": ""
         },
         {
           "title": "Project title",
           "year": "2025",
           "meta": "Music Video · DoP",
           "href": "#",
-          "placeholder": true
+          "placeholder": true,
+          "video": ""
         },
         {
           "title": "Project title",
           "year": "2025",
           "meta": "Commercial · DoP",
           "href": "#",
-          "placeholder": true
+          "placeholder": true,
+          "video": ""
         },
         {
           "title": "Project title",
           "year": "2024",
           "meta": "Branded · Director",
           "href": "#",
-          "placeholder": true
+          "placeholder": true,
+          "video": ""
         }
       ]
     },
@@ -112,21 +119,24 @@
           "year": "2026",
           "meta": "Animated Short · Dir & DoP",
           "href": "#",
-          "placeholder": false
+          "placeholder": false,
+          "video": ""
         },
         {
           "title": "Project title",
           "year": "2025",
           "meta": "Short Film · DoP",
           "href": "#",
-          "placeholder": true
+          "placeholder": true,
+          "video": ""
         },
         {
           "title": "Project title",
           "year": "2023",
           "meta": "Short Film · Director",
           "href": "#",
-          "placeholder": true
+          "placeholder": true,
+          "video": ""
         }
       ]
     }

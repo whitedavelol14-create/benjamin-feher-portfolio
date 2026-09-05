@@ -1,0 +1,55 @@
+fragment ContentParts on Content {
+  __typename
+  site {
+    __typename
+    brand
+    role
+    hero_line1
+    hero_line2
+    tagline
+    reel {
+      __typename
+      label
+      duration
+      href
+    }
+    email
+    contact_line
+    location
+    hud {
+      __typename
+      fps
+      shutter
+      iris
+      ei
+      nd
+      cam
+      fcl
+      media
+      tc_start
+    }
+  }
+  about {
+    __typename
+    label
+    loc
+    pull
+    paragraphs
+    collaborators
+  }
+  categories {
+    __typename
+    title
+    count
+    desc
+    id
+    projects {
+      __typename
+      title
+      year
+      meta
+      href
+      placeholder
+    }
+  }
+}

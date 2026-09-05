@@ -1,0 +1,25 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitedavelol14-create/benjamin-feher-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/whitedavelol14-create/benjamin-feher-portfolio/issues"
+  },
+  "homepage": "https://github.com/whitedavelol14-create/benjamin-feher-portfolio#readme",
+  "dependencies": {
+    "@tinacms/cli": "^2.6.1",
+    "tinacms": "^3.12.1"
+  }
+}
