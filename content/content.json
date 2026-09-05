@@ -1,10 +1,10 @@
 {
   "site": {
     "brand": "BENJAMIN_FEHÉR",
-    "role": "Director & Director of Photography",
-    "hero_line1": "Benjamin",
+    "role": "Editor & Cinematographer",
+    "hero_line1": "Dávid-Benjámin",
     "hero_line2": "Fehér",
-    "tagline": "A hand-built, analog-leaning eye across <strong>animation and live action</strong> — directing and photographing long form, short form, and narrative work.",
+    "tagline": "I am a Christian creative passionate about using the gifts I have been given to serve the Giver and inspire others. I believe creativity has purpose: to tell meaningful stories, bring hope, and create work that points people to Him. Everything I create is an offering to the King.",
     "reel": {
       "label": "Play reel",
       "duration": "02:14",
@@ -12,7 +12,7 @@
     },
     "email": "hello@benjaminfeher.com",
     "contact_line": "Let's make something.",
-    "location": "Budapest · Available worldwide",
+    "location": "Romania · Available worldwide",
     "hud": {
       "fps": "24.000",
       "shutter": "172.8",
@@ -28,7 +28,7 @@
   "about": {
     "label": "About",
     "loc": "Budapest · Hungary",
-    "pull": "Building images that feel both true and composed — <em>whether they start in a viewfinder or a render farm.</em>",
+    "pull": "Made to create. Called to serve.",
     "paragraphs": [
       "Benjamin Fehér is a director and director of photography working across <strong>animation and live action</strong>. On <strong>Stairs</strong>, a five-minute allegorical animated short, he directed and led cinematography and look development — carrying a filmic, photographic sensibility into a fully constructed image.",
       "His work moves between long-form patience and short-form precision: the same eye, different clocks."
@@ -43,12 +43,13 @@
       "desc": "Feature & documentary",
       "projects": [
         {
-          "title": "Project title",
+          "title": "Hittel és humorral — fiatal lelkész házaspárral beszélgettünk",
           "year": "2026",
-          "meta": "Documentary · DoP",
+          "meta": "Operator · Editor",
           "href": "#",
-          "placeholder": true,
-          "video": ""
+          "placeholder": false,
+          "video": "https://youtu.be/zyAzv5JSq34",
+          "desc": "Két különböző ember, egy közös pálya, és egyetlen nagy cél."
         },
         {
           "title": "Project title",

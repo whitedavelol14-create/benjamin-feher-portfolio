@@ -101,6 +101,7 @@ HEAD = """<!DOCTYPE html>
   .card-title .ph{display:inline-block;font-family:var(--mono);font-size:.52rem;letter-spacing:.12em;text-transform:uppercase;color:var(--rec);border:1px solid rgba(195,51,51,.5);border-radius:2px;padding:.12rem .4rem;margin-left:.6rem;vertical-align:2px}
   .card-year{font-family:var(--mono);font-size:.6rem;color:var(--faint)}
   .card-meta{font-family:var(--mono);font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+  .card-desc{font-size:.82rem;color:var(--dim);line-height:1.5}
   .card .thumb .play{position:absolute;inset:0;display:grid;place-items:center;opacity:0;transition:opacity .25s}
   .card:hover .thumb .play{opacity:1}
   .play-badge{width:44px;height:44px;border-radius:50%;border:1px solid var(--ink);display:grid;place-items:center;background:rgba(12,13,15,.55)}
@@ -244,6 +245,8 @@ def card(p, ci):
     ph = '<span class="ph">Replace</span>' if p.get('placeholder') else ''
     vid = p.get('video', '') or ''
     dv = f'data-video="{vid}"' if vid else ''
+    desc = p.get('desc', '').strip()
+    desc_html = f'<span class="card-desc">{desc}</span>' if desc else ''
     play = ''
     if vid:
         play = ('<span class="play"><span class="play-badge">'
@@ -253,7 +256,7 @@ def card(p, ci):
             f'<div class="thumb"><span class="fc"></span><span class="glyph">16:9 Frame</span>{play}</div>'
             f'<div class="card-top"><span class="card-title"{ed(ci+".title")}>{p["title"]}{ph}</span>'
             f'<span class="card-year"{ed(ci+".year")}>{p["year"]}</span></div>'
-            f'<span class="card-meta"{ed(ci+".meta")}>{p["meta"]}</span></a>')
+            f'<span class="card-meta"{ed(ci+".meta")}>{p["meta"]}</span>{desc_html}</a>')
 
 def ed(path):
     return f' data-edit="{path}"'
